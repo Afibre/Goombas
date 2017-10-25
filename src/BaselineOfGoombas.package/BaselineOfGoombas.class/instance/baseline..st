@@ -16,4 +16,6 @@ baseline: spec
 				configuration: 'GarageGlorp'
 					with: [ spec
 						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ]]
+						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ];
+				baseline: 'SeasideTesting'
+					with: [ spec repository: 'github://Afibre/SeasideTesting:master/src' ] ]
