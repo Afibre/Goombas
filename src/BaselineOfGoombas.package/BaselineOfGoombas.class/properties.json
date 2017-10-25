@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PatrickBarroca 10/25/2017 11:01",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfGoombas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfGoombas",
+	"type" : "normal"
+}
