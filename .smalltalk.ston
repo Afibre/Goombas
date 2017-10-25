@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #specName : 'Goombas',
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Goombas',
+      #onWarningLog : true,
+      #directory : 'src'
+    }
+  ]
+}
