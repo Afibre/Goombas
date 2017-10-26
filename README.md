@@ -1,4 +1,4 @@
-# GOOMBAS [![Build Status](https://travis-ci.org/Afibre/GOOMBAS.png?branch=master)](https://travis-ci.org/Afibre/GOOMBAS)
+# Goombas [![Build Status](https://travis-ci.org/Afibre/Goombas.png?branch=master)](https://travis-ci.org/Afibre/Goombas)
 Web application framework with QCMagritte and Glorp persistence
 ```
 ░░░░░░░░░░░░░▄▄▀▀▀▀▄▄░░░░░░░░░░░░░
