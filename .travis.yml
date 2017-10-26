@@ -6,3 +6,15 @@ os:
 
 smalltalk:
   - Pharo-6.1
+
+script:
+  - bash ./build.sh
+
+deploy:
+  provider: releases
+  api_key:
+    secure: PTY4E0eqQTUYcZTYY5crkKJihAa4ru0OiDTd6dXSkFju4/mQDL9gkfZTHuxmx/BwLOZUfOUGEn2z+25A6AM6hk/2otl2/la9VSQpiE6YkSbaevfd/l1qgLgWYqhL6xXPYTCg/TCgSuHMiF7+chK+DNnA2Ijmf1biTpCa3wg0Jd7Q5qLusm6udEuvE/B6zvu5z/8ttRFiQDbhRYMdG9O7iGtVTm4BwJK8A7QgiB97XBb3ByXXoKPQc7001HzrgtLkIaSI7oZrMX/PbXTYVUB8bhjJ0LSS/yq1hWtgUNqR4FDH992aRTGjhaMjuaWAfr+m/bOVNs96H076geUzoD7FvCv0ctvHJii5RnsdnDnLpi58hrB8gevFvV4rT45Yp9k30ml6b7le3t5P8MEUpZmCnRK5PgaU4f+hRuIODHYAHzCCN+LjuA5zBkn/FaoF5q1VmLr4/OR0XGAGVNs3mB5cnL7zxkTUViYRT1ZPN0+F7Hg5P32+O1rjDE/gtydH/y4AuYB/VcmNLSQElVzTfAq8fn6BEKsf+iQf3g2TA/DvODU5TMkAGYdnRzPzJc3UpPQfVLbqgxg5KmvkYO6PLwxFRd1wOn2Ta2op+ONEp1HbR/zudg0UYfnxAtactGkiG2eT9w7EZgSazCU6nvL3nFfj39Eyhhz2CT4lXKB6felb0j0=
+  file: Goombas.zip
+  on:
+    repo: Afibre/Goombas
+    all_branches: true
