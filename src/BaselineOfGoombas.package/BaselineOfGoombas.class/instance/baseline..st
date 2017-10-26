@@ -20,6 +20,6 @@ baseline: spec
 				baseline: 'SeasideTesting'
 					with: [ spec 
 						repository: 'github://Afibre/SeasideTesting:master/src' ];
-				baseline: 'QCMagritte' 
+				baseline: 'AfibreQCMagritte' 
 					with: [ spec 
 					 	repository: 'github://Afibre/QCMagritte:master/src' ] ]
