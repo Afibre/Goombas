@@ -2,12 +2,26 @@ language: smalltalk
 sudo: false
 os:
 - linux
+<<<<<<< HEAD
+
 smalltalk:
 - Pharo-6.1
+
+script:
+  - bash ./build.sh
+
+=======
+smalltalk:
+- Pharo-6.1
+>>>>>>> 3aec8c4... try artifact
 deploy:
   provider: releases
   api_key:
     secure: WJiAjxnB9V+ISOrTPK+XLYuEwTbQtNOGqQ1uNMbBKe856oZO+Mzj1EkPRldhcxq4vERioU5V0NbbnUevadCTaB0/0f4ERFzkqC+ELFdlUg4zVMwSBnt6lXw2qGeYacSFZMhPLXBX0JJN1SnWx4NLepMCgNsK93HFz6uxw7+VeVmoIHEjnWssat4Dc3EixpTEuBM7TK5oiSXvjHISLs/KCSAh67muYvdu3FsyjN/uJTWEQUfXd8Ddda7bPBP1ctP59PLzyIPpacNbMxdqR8Bd+6YgYy+rxOOazTWq1ymPk/VnuM3k+uGhQvPbKZ8+LWDhmWytnmZbYqSavO9zHZAQP0cqmle9+yHP1P2O3s76DerUJOyEs3mOol/Wpqr9rbWz7IRTNY1a736Ynk3Hus6BHfGPrMLQGcXh2Y6FJCxvTvm/46zOVK5X1+tMcuGUkUBNcwlswsl+JkzQPCAwZuUz0L78/0sfyr5nHLhebExi77FUL42GoDbVoo56ivhEDO2z8u8lRp5uEmz1Un9GfNBSd8ulXmlN1Edtsu7gzTzDnTlrGz/NkYjqjrvbnPmCYS0xne7SmepV5x/FodmFIUq/uOghvauHE1mlwJvx8CB1zmXRuZZ0UDZNE2qaBQY0kmIM8BvUZVmtP/8XJixGqhhJIh3i2Dxp45uM1WRm2BgRU+U=
   file: Goombas.zip
   on:
+<<<<<<< HEAD
+    all_branches: true
+=======
     repo: Afibre/Goombas
+>>>>>>> 3aec8c4... try artifact
