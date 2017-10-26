@@ -1,20 +1,13 @@
 language: smalltalk
 sudo: false
-
 os:
-  - linux
-
+- linux
 smalltalk:
-  - Pharo-6.1
-
-script:
-  - bash ./build.sh
-
+- Pharo-6.1
 deploy:
   provider: releases
   api_key:
-    secure: PTY4E0eqQTUYcZTYY5crkKJihAa4ru0OiDTd6dXSkFju4/mQDL9gkfZTHuxmx/BwLOZUfOUGEn2z+25A6AM6hk/2otl2/la9VSQpiE6YkSbaevfd/l1qgLgWYqhL6xXPYTCg/TCgSuHMiF7+chK+DNnA2Ijmf1biTpCa3wg0Jd7Q5qLusm6udEuvE/B6zvu5z/8ttRFiQDbhRYMdG9O7iGtVTm4BwJK8A7QgiB97XBb3ByXXoKPQc7001HzrgtLkIaSI7oZrMX/PbXTYVUB8bhjJ0LSS/yq1hWtgUNqR4FDH992aRTGjhaMjuaWAfr+m/bOVNs96H076geUzoD7FvCv0ctvHJii5RnsdnDnLpi58hrB8gevFvV4rT45Yp9k30ml6b7le3t5P8MEUpZmCnRK5PgaU4f+hRuIODHYAHzCCN+LjuA5zBkn/FaoF5q1VmLr4/OR0XGAGVNs3mB5cnL7zxkTUViYRT1ZPN0+F7Hg5P32+O1rjDE/gtydH/y4AuYB/VcmNLSQElVzTfAq8fn6BEKsf+iQf3g2TA/DvODU5TMkAGYdnRzPzJc3UpPQfVLbqgxg5KmvkYO6PLwxFRd1wOn2Ta2op+ONEp1HbR/zudg0UYfnxAtactGkiG2eT9w7EZgSazCU6nvL3nFfj39Eyhhz2CT4lXKB6felb0j0=
+    secure: WJiAjxnB9V+ISOrTPK+XLYuEwTbQtNOGqQ1uNMbBKe856oZO+Mzj1EkPRldhcxq4vERioU5V0NbbnUevadCTaB0/0f4ERFzkqC+ELFdlUg4zVMwSBnt6lXw2qGeYacSFZMhPLXBX0JJN1SnWx4NLepMCgNsK93HFz6uxw7+VeVmoIHEjnWssat4Dc3EixpTEuBM7TK5oiSXvjHISLs/KCSAh67muYvdu3FsyjN/uJTWEQUfXd8Ddda7bPBP1ctP59PLzyIPpacNbMxdqR8Bd+6YgYy+rxOOazTWq1ymPk/VnuM3k+uGhQvPbKZ8+LWDhmWytnmZbYqSavO9zHZAQP0cqmle9+yHP1P2O3s76DerUJOyEs3mOol/Wpqr9rbWz7IRTNY1a736Ynk3Hus6BHfGPrMLQGcXh2Y6FJCxvTvm/46zOVK5X1+tMcuGUkUBNcwlswsl+JkzQPCAwZuUz0L78/0sfyr5nHLhebExi77FUL42GoDbVoo56ivhEDO2z8u8lRp5uEmz1Un9GfNBSd8ulXmlN1Edtsu7gzTzDnTlrGz/NkYjqjrvbnPmCYS0xne7SmepV5x/FodmFIUq/uOghvauHE1mlwJvx8CB1zmXRuZZ0UDZNE2qaBQY0kmIM8BvUZVmtP/8XJixGqhhJIh3i2Dxp45uM1WRm2BgRU+U=
   file: Goombas.zip
   on:
     repo: Afibre/Goombas
-    all_branches: true
