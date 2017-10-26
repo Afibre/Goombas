@@ -18,4 +18,8 @@ baseline: spec
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ];
 				baseline: 'SeasideTesting'
-					with: [ spec repository: 'github://Afibre/SeasideTesting:master/src' ] ]
+					with: [ spec 
+						repository: 'github://Afibre/SeasideTesting:master/src' ];
+				baseline: 'QCMagritte' 
+					with: [ spec 
+					 	repository: 'github://Afibre/QCMagritte:master/src' ] ]
