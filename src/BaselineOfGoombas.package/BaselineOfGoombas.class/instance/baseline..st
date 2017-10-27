@@ -5,10 +5,6 @@ baseline: spec
 		for: #common
 		do: [ spec blessing: #baseline.
 			spec
-				configuration: 'Magritte3'
-					with: [ spec
-						versionString: #development;
-						repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main/' ];
 				baseline: 'QCMagritte'
 					with: [ spec
 						repository: 'github://Afibre/QCMagritte:master/src' ];
