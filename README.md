@@ -1,5 +1,21 @@
 # Goombas [![Build Status](https://travis-ci.org/Afibre/Goombas.png?branch=master)](https://travis-ci.org/Afibre/Goombas)
 Web application framework with QCMagritte and Glorp persistence
+
+## Installation
+
+In a Pharo 6 image, run:
+
+```smalltalk
+Metacello new 
+  githubUser: 'Afibre' project: 'Goombas' commitish: 'master' path: 'src'; 
+  baseline: 'Goombas';
+  load. 
+```
+
+## License
+
+MIT
+
 ```
 ░░░░░░░░░░░░░▄▄▀▀▀▀▄▄░░░░░░░░░░░░░
 ░░░░░░░░▄██▄▀░░░░░░░░▀▄██▄░░░░░░░░
