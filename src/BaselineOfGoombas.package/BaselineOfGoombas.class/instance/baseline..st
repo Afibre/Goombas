@@ -9,17 +9,18 @@ baseline: spec
 					with: [ spec
 						versionString: #development;
 						repository: 'http://smalltalkhub.com/mc/Magritte/Magritte3/main/' ];
-				configuration: 'QCMagritte'
+				baseline: 'QCMagritte'
 					with: [ spec
-						versionString: #release1;
-						repository: 'http://smalltalkhub.com/mc/DiegoLont/QCMagritte/main/' ];
-				configuration: 'GarageGlorp'
-					with: [ spec
-						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ];
+						repository: 'github://Afibre/QCMagritte:master/src' ];
+				baseline: 'Garage'
+				   with: [ spec 
+					    versionString: 'github://Afibre/garage:master'  ];
+				baseline: 'Glorp'
+					with: [ spec						
+						repository: 'github://pharo-rdbms/glorp:master' ];
+				baseline: 'GarageGlorp'
+					with: [ spec						
+						repository: 'github://pharo-rdbms/glorp-garage:master' ];
 				baseline: 'SeasideTesting'
 					with: [ spec 
-						repository: 'github://Afibre/SeasideTesting:master/src' ];
-				baseline: 'AfibreQCMagritte' 
-					with: [ spec 
-					 	repository: 'github://Afibre/QCMagritte:master/src' ] ]
+						repository: 'github://Afibre/SeasideTesting:master/src' ]]
