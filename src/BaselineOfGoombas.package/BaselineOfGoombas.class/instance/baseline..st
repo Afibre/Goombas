@@ -14,7 +14,7 @@ baseline: spec
 						repository: 'github://Afibre/QCMagritte:master/src' ];
 				baseline: 'Garage'
 				   with: [ spec 
-					    versionString: 'github://Afibre/garage:master'  ];
+					    repository: 'github://Afibre/garage:master'  ];
 				baseline: 'Glorp'
 					with: [ spec						
 						repository: 'github://pharo-rdbms/glorp:master' ];
