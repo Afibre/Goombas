@@ -10,13 +10,13 @@ baseline: spec
 						repository: 'github://Afibre/QCMagritte:master/src' ];
 				baseline: 'Garage'
 				   with: [ spec 
-					    repository: 'github://patbator/garage:master'  ];
+					    repository: 'github://Afibre/garage:master'  ];
 				baseline: 'Glorp'
 					with: [ spec						
-						repository: 'github://pharo-rdbms/glorp:master' ];
+						repository: 'github://Afibre/glorp:master' ];
 				baseline: 'GarageGlorp'
 					with: [ spec						
-						repository: 'github://pharo-rdbms/glorp-garage:master' ];
+						repository: 'github://Afibre/glorp-garage:master' ];
 				baseline: 'SeasideTesting'
 					with: [ spec 
 						repository: 'github://Afibre/SeasideTesting:master/src' ]]
