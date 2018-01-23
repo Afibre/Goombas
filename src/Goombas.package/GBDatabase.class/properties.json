@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "LaurentLaffont 1/23/2018 16:42",
+	"super" : "Object",
+	"category" : "Goombas-Glorp",
+	"classinstvars" : [
+		"Username",
+		"Password",
+		"Host",
+		"Port",
+		"DatabaseName",
+		"EncodingStrategy"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GBDatabase",
+	"type" : "normal"
+}
