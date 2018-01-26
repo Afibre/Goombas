@@ -6,38 +6,45 @@ databaseSettingsOn: aBuilder
 	  description: 'Database settings for ' , self name;
 	  with: [
 		(self setting: #databaseName on: aBuilder)
-		  label: 'Database name';
+		  label: 'Database name' translated;
 		  order: 1;
 		  default: self name;
-		  description: 'Name used for schema'.
+		  description: 'Name used for schema' .
+		
+		(self pickOneSetting: #descriptorClass on: aBuilder)
+		  label: 'DescriptorSystem';
+		  order: 2;
+		  description: 'DescriptorSystem subclass which describtes tables, descriptors and class models. See DescriptorSystem class comment';
+		  domainValues: (DescriptorSystem allSubclasses collect: [ :aDescriptor|
+																					aDescriptor name -> aDescriptor ] ).
 		
 		(self setting: #username on: aBuilder)
-		  label: 'Username';
-		  order: 2;
+		  label: 'Username' translated;
+		  order: 3;
 		  default: 'root';
 		  description: 'Username with rights granted on database'.
 		
 		(self setting: #password on: aBuilder)
-		  label: 'Password';
-		  order: 3;
+		  label: 'Password' translated;
+		  order: 4;
 		  default: '';
 		  description: 'Password'.
 		
 		(self setting: #host on: aBuilder)
-		  label: 'Host';
-		  order: 4;
+		  label: 'Host' translated;
+		  order: 5;
 		  default: 'localhost';
 		  description: 'ip or server name'.
 		
 		(self setting: #port on: aBuilder)
-		  label: 'Port';
-		  order: 5;
+		  label: 'Port' translated;
+		  order: 6;
 		  default: '3306';
 		  description: 'Server port'.
 		
 		(self setting: #encodingStrategy on: aBuilder)
-		  label: 'Encoding';
-		  order: 6;
+		  label: 'Encoding' translated;
+		  order: 7;
 		  default: #utf8;
 		  description: 'Default character encoding'.
 	  ].

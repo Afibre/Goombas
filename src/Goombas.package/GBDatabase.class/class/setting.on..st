@@ -1,6 +1,5 @@
 settings
 setting: aSymbol on: aBuilder
-  ^ (aBuilder setting: self name , aSymbol)
-       target: self;
-       getSelector: aSymbol;
-       setSelector: (aSymbol , ':') asSymbol
+  ^  self setupNewSettingFor: aSymbol do: [ :settingName|
+	    aBuilder setting: settingName
+	 ]
