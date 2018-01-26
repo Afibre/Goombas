@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "TGBDatabaseAccess classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GBApplicationModel",
+	"commentStamp" : "",
+	"super" : "QCBootstrapApplicationModel",
+	"traitcomposition" : "TGBDatabaseAccess",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Goombas-Core"
+}

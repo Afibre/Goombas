@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCBootstrapApplication",
+	"category" : "Goombas-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GBApplication",
+	"type" : "normal"
+}

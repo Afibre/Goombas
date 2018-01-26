@@ -1,0 +1,3 @@
+magritte-description
+mementoClass
+	^ GBMemento

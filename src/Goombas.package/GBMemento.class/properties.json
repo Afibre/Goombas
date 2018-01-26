@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QCAjaxMemento",
+	"category" : "Goombas-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GBMemento",
+	"type" : "normal"
+}

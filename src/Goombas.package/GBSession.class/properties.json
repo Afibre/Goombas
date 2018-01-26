@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "QCSession",
+	"category" : "Goombas-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"databaseSession"
+	],
+	"name" : "GBSession",
+	"type" : "normal"
+}

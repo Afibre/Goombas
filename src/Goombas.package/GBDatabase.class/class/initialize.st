@@ -1,0 +1,4 @@
+initialization
+initialize
+	super initialize.
+	GAGlorpDriver beGlorpDefaultDriver
