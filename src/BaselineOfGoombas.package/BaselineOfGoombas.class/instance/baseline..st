@@ -19,4 +19,5 @@ baseline: spec
 						repository: 'github://Afibre/glorp-garage:master' ];
 				baseline: 'SeasideTesting'
 					with: [ spec 
-						repository: 'github://Afibre/SeasideTesting:master/src' ]]
+						repository: 'github://Afibre/SeasideTesting:master/src' ];
+				package: #Goombas]
