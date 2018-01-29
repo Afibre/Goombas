@@ -3,7 +3,8 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ spec blessing: #baseline.
+		do: [ 
+			spec blessing: #baseline.
 			spec
 				baseline: 'QCMagritte'
 					with: [ spec
@@ -20,4 +21,10 @@ baseline: spec
 				baseline: 'SeasideTesting'
 					with: [ spec 
 						repository: 'github://Afibre/SeasideTesting:master/src' ];
-				package: #Goombas]
+				package: #Goombas;
+				
+				project: 'NeoConsole' 
+				  with: [ spec 
+   							 className: 'ConfigurationOfNeoConsole';
+    						repository: 'http://mc.stfx.eu/Neo' ]
+				]
