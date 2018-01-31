@@ -1,0 +1,11 @@
+building
+build
+  self 
+	buildDescriptorSystem;
+  	buildDatabase;
+	buildRootModel;
+	buildSession;
+	buildApplication;
+	registerForDevelopment;
+	openSettings;
+	openBrowser

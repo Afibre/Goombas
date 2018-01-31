@@ -1,0 +1,3 @@
+building
+registerForDevelopment
+	applicationClass registerForDevelopment

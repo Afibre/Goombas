@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "LaurentLaffont 1/31/2018 11:56",
+	"super" : "Object",
+	"category" : "Goombas-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"packageName",
+		"classPrefix",
+		"descriptorSystemClass",
+		"databaseClass",
+		"rootModelClass",
+		"sessionClass",
+		"applicationClass"
+	],
+	"name" : "GBApplicationGenerator",
+	"type" : "normal"
+}
