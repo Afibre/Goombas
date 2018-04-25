@@ -1,3 +1,3 @@
 accessing
 sessionClass
-	^ GBMemento
+	^ GBSession
