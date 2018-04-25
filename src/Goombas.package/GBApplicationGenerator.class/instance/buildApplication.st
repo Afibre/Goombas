@@ -17,4 +17,7 @@ buildApplication
 	applicationClass 
 	    compile: ('title
 	               ^ ''', self packageName, ' application''')
+	    classified: 'accessing';
+       compile: ('model
+	               ^ ', (self classNameFor: 'Model'))
 	    classified: 'accessing'.
